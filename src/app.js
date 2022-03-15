@@ -1,11 +1,15 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
+let pronoun = ["the", "our"];
+let adj = ["great", "big"];
+let noun = ["jogger", "racoon"];
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
+const domainname = (pronoun, adj, noun) => {
+  for (let i of pronoun) {
+    for (let j of adj) {
+      for (let h of noun) {
+        console.log(i + j + h + ".com");
+      }
+    }
+  }
 };
+
+domainname(pronoun, adj, noun);
