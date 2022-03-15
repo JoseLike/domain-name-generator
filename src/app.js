@@ -1,15 +1,18 @@
 let pronoun = ["the", "our"];
 let adj = ["great", "big"];
 let noun = ["jogger", "racoon"];
+let ext = [".com", ".es", ".net", ".org"];
 
-const domainname = (pronoun, adj, noun) => {
-  for (let i of pronoun) {
-    for (let j of adj) {
-      for (let h of noun) {
-        console.log(i + j + h + ".com");
+const domainname = (primero, segundo, tercero, ultimo) => {
+  for (let h of primero) {
+    for (let i of segundo) {
+      for (let j of tercero) {
+        for (let k of ultimo) {
+          console.log(i + j + h + k);
+        }
       }
     }
   }
 };
 
-domainname(pronoun, adj, noun);
+domainname(pronoun, adj, noun, ext);
