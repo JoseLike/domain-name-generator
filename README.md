@@ -16,6 +16,18 @@ Creando un generador de dominios a partir de unos arrays dados.
 * [Javascript](https://www.javascript.com/) - Usado para generar interactividad (los nombres de dominios en este caso).
 
 
+## Deployment
+
+Este ejercicio inicia automaticamente una preview del mismo.
+
+Aun asi, para lanzar este proyecto introduce en la consola el codigo de la ventana inferior, posteriormente si no se muestra el resultado escibre localhost en el buscador.
+
+```bash
+  $ npm run start
+```
+
+
+
 ## Estructura y explicación del codigo ⚙️
 
 * Creando un JS que usa 3 Arrays dados para generar un nombre de dominio. Con el codigo se recorren todos los arrays mostrando todas las combinaciones posibles.
